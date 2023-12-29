@@ -1,0 +1,14 @@
+@keyframes buttonSpin {
+    from {
+        transform: rotate(360deg)
+    }
+    to {
+        transform: rotate(0deg)
+    }
+}
+
+@media all {
+    .spinMe {
+        animation: buttonSpin infinite 10s linear;
+    }
+}
